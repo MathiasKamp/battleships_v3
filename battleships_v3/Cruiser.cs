@@ -6,7 +6,7 @@
         {
             Name = "Cruiser";
             Health = 3;
-            Identification = "C";
+            Identification = 'C';
         }
     }
 }

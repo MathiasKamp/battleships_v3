@@ -8,9 +8,10 @@ namespace battleships_v3
 {
     class grid
     {
-
+        // makes a two dimensional array of type char with 10 spots in each row.
         char[,] Grid = new char[10, 10];
 
+        // method makeBattleBoard creates my grid
         public void MakeBattleBoard(char[,] grid)
         {
             Console.WriteLine("  ¦ 0 1 2 3 4 5 6 7 8 9 \n--+--------------------");

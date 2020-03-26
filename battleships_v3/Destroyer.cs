@@ -6,7 +6,7 @@
         {
             Name = "Destroyer";
             Health = 2;
-            Identification = "D";
+            Identification = 'D';
         }
     }
 }

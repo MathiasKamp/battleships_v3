@@ -6,18 +6,13 @@ using System.Threading.Tasks;
 
 namespace battleships_v3
 {
+    /// <summary>
+    /// Ship class that i can inherit from to my battleship, cruiser, destroyer, submarine and aircraftcarrier
+    /// </summary>
     public abstract class Ship
     {
         public string Name { get; set; }
         public int Health { get; set; }
-
-        public int Hits { get; set; }
-        public string Identification { get; set; }
-
-        public bool shipSunken
-        {
-            get { return Hits >= Health; }
-        }
+        public char Identification { get; set; }
     }
-
 }

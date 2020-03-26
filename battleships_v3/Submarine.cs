@@ -6,7 +6,9 @@
         {
             Name = "Submarine";
             Health = 3;
-            Identification = "S";
+            Identification = 'S';
         }
     }
+
+   
 }
